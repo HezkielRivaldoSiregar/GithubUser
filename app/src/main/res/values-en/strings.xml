@@ -1,0 +1,27 @@
+<resources>
+    <!-- Other string resources-->
+    <string name="app_name">GithubUser</string>
+    <string name="search_hint">Enter Username</string>
+    <string name="repository">Repository</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="username">Username: </string>
+    <string name="github_url">Github URL: </string>
+    <string name="change_language_settings">Change Language Settings</string>
+    <string name="shareUser">Share User</string>
+    <string name="userNotFound">User not found</string>
+    <string name="location">Location</string>
+    <string name="company">Company</string>
+    <string name="favorite">Favorit</string>
+    <string name="noFavoriteFound">No Favorited User Found</string>
+    <string name="Reminder">Reminder</string>
+    <string name="alarmTime">Alarm Time</string>
+    <string name="setRepeatingAlarm">Set Repeating Alarm</string>
+    <string name="alarmMessage">Alarm Message</string>
+    <string name="repeatingAlarm">Repeating Alarm</string>
+    <string name="alarmSet">Repeating Alarm is Active</string>
+    <string name="alarmCancelled">Alarm Cancelled</string>
+    <string name="cancelAlarm">Cancel Repeating Alarm</string>
+</resources>
+
+

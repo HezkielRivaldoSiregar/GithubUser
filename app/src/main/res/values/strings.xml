@@ -1,0 +1,27 @@
+<resources>
+    <!-- Other string resources-->
+    <string name="app_name">GithubUser</string>
+    <string name="search_hint">Masukkan Username</string>
+    <string name="repository">Repository</string>
+    <string name="followers">Pengikut</string>
+    <string name="following">Mengikuti</string>
+    <string name="username">Username: </string>
+    <string name="github_url">Github URL: </string>
+    <string name="change_language_settings">Ubah Pengaturan Bahasa</string>
+    <string name="shareUser">Bagikan Pengguna</string>
+    <string name="userNotFound">Username Tidak Ditemukan</string>
+    <string name="location">Lokasi</string>
+    <string name="company">Perusahaan</string>
+    <string name="favorite">Favorit</string>
+    <string name="noFavoriteFound">Belum Ada User yang Difavoritkan</string>
+    <string name="Reminder">Atur Pengingat</string>
+    <string name="alarmTime">Waktu Alarm</string>
+    <string name="setRepeatingAlarm">Atur Alarm Berulang</string>
+    <string name="alarmMessage">Pesan Alarm</string>
+    <string name="repeatingAlarm">Alarm Berulang</string>
+    <string name="alarmSet">Alarm Berulang Telah Aktif</string>
+    <string name="alarmCancelled">Alarm Dibatalkan</string>
+    <string name="cancelAlarm">Batalkan Alarm Berulang</string>
+</resources>
+
+

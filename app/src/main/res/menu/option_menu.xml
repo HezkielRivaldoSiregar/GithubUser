@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_change_settings"
+        android:title="@string/change_language_settings"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/setAlarm"
+        android:title="@string/Reminder"
+        app:showAsAction="never"/>
+        />
+    <item
+        android:id="@+id/favoriteUserMenu"
+        android:title="@string/favorite"
+        android:icon="@drawable/ic_favorite_false"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search_white_24"
+        android:title="@string/search_hint"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="collapseActionView|always"/>
+</menu>
