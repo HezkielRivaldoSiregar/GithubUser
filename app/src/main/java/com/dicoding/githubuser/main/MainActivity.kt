@@ -1,4 +1,4 @@
-package com.dicoding.githubuser.activity
+package com.dicoding.githubuser.main
 
 import android.app.SearchManager
 import android.content.Context
@@ -18,7 +18,9 @@ import androidx.recyclerview.widget.RecyclerView
 import com.dicoding.githubuser.adapter.ListUserAdapter
 import com.dicoding.githubuser.R
 import com.dicoding.githubuser.User
-import com.dicoding.githubuser.viewmodel.MainViewModel
+import com.dicoding.githubuser.alarm.AlarmActivity
+import com.dicoding.githubuser.detail.DetailActivity
+import com.dicoding.githubuser.favorite.FavoriteActivity
 
 class MainActivity : AppCompatActivity() {
     private lateinit var rvUser: RecyclerView
@@ -41,8 +43,7 @@ class MainActivity : AppCompatActivity() {
         progressBar = findViewById(R.id.progressBar)
         adapter = ListUserAdapter()
         mainViewModel = ViewModelProvider(this, ViewModelProvider.NewInstanceFactory()).get(
-            MainViewModel::class.java
-        )
+            MainViewModel::class.java)
 
         mainViewModel.getUser().observe(this, { SearchUser ->
             if (SearchUser.size > 0) {

@@ -1,4 +1,4 @@
-package com.dicoding.githubuser.activity
+package com.dicoding.githubuser.favorite
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -11,7 +11,8 @@ import com.dicoding.githubuser.adapter.ListUserAdapter
 import com.dicoding.githubuser.User
 import com.dicoding.githubuser.database.UserFavorite
 import com.dicoding.githubuser.databinding.ActivityFavoriteBinding
-import com.dicoding.githubuser.viewmodel.FavoriteViewModel
+import com.dicoding.githubuser.detail.DetailActivity
+import com.dicoding.githubuser.main.MainActivity
 
 class FavoriteActivity : AppCompatActivity() {
 

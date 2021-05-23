@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/blue_500"
-    tools:context=".activity.SplashScreenActivity">
+    tools:context=".splashscreen.SplashScreenActivity">
 
     <ImageView
         android:id="@+id/github_logo"

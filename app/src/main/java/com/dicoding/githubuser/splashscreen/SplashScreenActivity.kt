@@ -1,4 +1,4 @@
-package com.dicoding.githubuser.activity
+package com.dicoding.githubuser.splashscreen
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import com.dicoding.githubuser.R
+import com.dicoding.githubuser.main.MainActivity
 
 class SplashScreenActivity : AppCompatActivity() {
 

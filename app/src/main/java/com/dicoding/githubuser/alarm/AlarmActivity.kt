@@ -1,12 +1,10 @@
-package com.dicoding.githubuser.activity
+package com.dicoding.githubuser.alarm
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import android.view.View
-import com.dicoding.githubuser.receiver.AlarmReceiver
 import com.dicoding.githubuser.R
 import com.dicoding.githubuser.databinding.ActivityAlarmBinding
-import com.dicoding.githubuser.fragment.TimePickerFragment
 import java.text.SimpleDateFormat
 import java.util.*
 

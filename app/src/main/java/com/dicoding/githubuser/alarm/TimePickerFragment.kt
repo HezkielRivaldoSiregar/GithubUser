@@ -1,4 +1,4 @@
-package com.dicoding.githubuser.fragment
+package com.dicoding.githubuser.alarm
 
 import android.app.Dialog
 import android.app.TimePickerDialog

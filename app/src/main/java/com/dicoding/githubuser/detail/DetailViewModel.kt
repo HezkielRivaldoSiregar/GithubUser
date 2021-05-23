@@ -1,4 +1,4 @@
-package com.dicoding.githubuser.viewmodel
+package com.dicoding.githubuser.detail
 
 import android.app.Application
 import android.content.Context
@@ -34,7 +34,7 @@ class DetailViewModel(application: Application) : AndroidViewModel(application) 
     fun DataListUser(context: Context, username: String?) {
         val client = AsyncHttpClient()
         val url = "https://api.github.com/users/$username"
-        client.addHeader("Authorization", "token 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")
+        client.addHeader("Authorization", "token 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")
         client.addHeader("User-Agent", "request")
         client.get(url, object : AsyncHttpResponseHandler() {
             override fun onSuccess(statusCode: Int, headers: Array<Header>, responseBody: ByteArray) {

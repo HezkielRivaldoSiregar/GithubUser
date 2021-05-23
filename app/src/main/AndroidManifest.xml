@@ -25,15 +25,15 @@
             android:readPermission="com.dicoding.githubuser.READ_DATABASE"/>
 
         <receiver
-            android:name=".receiver.AlarmReceiver"
+            android:name=".alarm.AlarmReceiver"
             android:enabled="true"
             android:exported="true" />
 
-        <activity android:name=".activity.AlarmActivity" />
-        <activity android:name=".activity.MainActivity" />
-        <activity android:name=".activity.FavoriteActivity" />
-        <activity android:name=".activity.DetailActivity" />
-        <activity android:name=".activity.SplashScreenActivity">
+        <activity android:name=".alarm.AlarmActivity" />
+        <activity android:name=".main.MainActivity" />
+        <activity android:name=".favorite.FavoriteActivity" />
+        <activity android:name=".detail.DetailActivity" />
+        <activity android:name=".splashscreen.SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

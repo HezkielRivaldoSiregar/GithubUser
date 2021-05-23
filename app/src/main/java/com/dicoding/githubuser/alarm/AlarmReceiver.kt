@@ -1,4 +1,4 @@
-package com.dicoding.githubuser.receiver
+package com.dicoding.githubuser.alarm
 
 import android.app.AlarmManager
 import android.app.NotificationChannel

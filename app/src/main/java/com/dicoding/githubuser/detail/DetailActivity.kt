@@ -1,4 +1,4 @@
-package com.dicoding.githubuser.activity
+package com.dicoding.githubuser.detail
 
 import android.content.Intent
 import android.os.Bundle
@@ -14,7 +14,7 @@ import com.bumptech.glide.request.RequestOptions
 import com.dicoding.githubuser.R
 import com.dicoding.githubuser.adapter.SectionsPagerAdapter
 import com.dicoding.githubuser.databinding.ActivityDetailBinding
-import com.dicoding.githubuser.viewmodel.DetailViewModel
+import com.dicoding.githubuser.main.MainActivity
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
 import kotlinx.coroutines.CoroutineScope
